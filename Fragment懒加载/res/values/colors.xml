@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 基本颜色值 -->
+    <color name="app_base_bg">#ededed</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="micro_transparent">#33000000</color>
+    <color name="translucent">#77000000</color>
+    <color name="orange">#fe5f4c</color>
+    <color name="content">#555555</color>
+    <color name="hint">#999999</color>
+    <color name="line">#ebebeb</color>
+    
+</resources>

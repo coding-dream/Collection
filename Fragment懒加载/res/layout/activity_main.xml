@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/padding_10"
+        android:background="@drawable/tab_corner_btn_all_selector"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/id_rb_fst"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_corner_btn_left_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="第一个"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="@dimen/line"
+            android:layout_height="match_parent"
+            android:background="@color/orange" />
+
+        <RadioButton
+            android:id="@+id/id_rb_snd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_corner_btn_center_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="第二个"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="@dimen/line"
+            android:layout_height="match_parent"
+            android:background="@color/orange" />
+
+        <RadioButton
+            android:id="@+id/id_rb_thd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_corner_btn_right_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="第三个"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_vp_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

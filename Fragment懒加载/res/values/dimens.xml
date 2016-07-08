@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="padding_0">0dp</dimen>
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_6">6dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="line">1dp</dimen>
+    
+    
+</resources>
